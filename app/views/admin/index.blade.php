@@ -3,7 +3,7 @@
 
 <div class="span8 well">
 
-    <h4>Hello, {{ Auth::user()->username }}</h4>
+    <h4>Hello, {{ Auth::user()->username }} [ {{Auth::user()->email}} ]</h4>
 
 </div>
 
